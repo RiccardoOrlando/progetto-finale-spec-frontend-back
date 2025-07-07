@@ -1,0 +1,92 @@
+[
+  {
+    "title": "LG 27UL500-W",
+    "category": "Screen",
+    "price": 299,
+    "sizeInches": 27,
+    "resolution": "3840x2160",
+    "refreshRateHz": 60,
+    "panelType": "IPS"
+  },
+  {
+    "title": "Samsung S24R650FDN",
+    "category": "Screen",
+    "price": 199,
+    "sizeInches": 24,
+    "resolution": "1920x1080",
+    "refreshRateHz": 75,
+    "panelType": "IPS"
+  },
+  {
+    "title": "Dell S2721DGF",
+    "category": "Screen",
+    "price": 429,
+    "sizeInches": 27,
+    "resolution": "2560x1440",
+    "refreshRateHz": 165,
+    "panelType": "IPS"
+  },
+  {
+    "title": "BenQ EW2780",
+    "category": "Screen",
+    "price": 219,
+    "sizeInches": 27,
+    "resolution": "1920x1080",
+    "refreshRateHz": 75,
+    "panelType": "IPS"
+  },
+  {
+    "title": "ASUS TUF Gaming VG27AQ",
+    "category": "Screen",
+    "price": 379,
+    "sizeInches": 27,
+    "resolution": "2560x1440",
+    "refreshRateHz": 165,
+    "panelType": "IPS"
+  },
+  {
+    "title": "Acer Nitro VG240Y",
+    "category": "Screen",
+    "price": 149,
+    "sizeInches": 23.8,
+    "resolution": "1920x1080",
+    "refreshRateHz": 75,
+    "panelType": "IPS"
+  },
+  {
+    "title": "HP U28 4K HDR Monitor",
+    "category": "Screen",
+    "price": 349,
+    "sizeInches": 28,
+    "resolution": "3840x2160",
+    "refreshRateHz": 60,
+    "panelType": "IPS"
+  },
+  {
+    "title": "ViewSonic VX2758-2KP-MHD",
+    "category": "Screen",
+    "price": 299,
+    "sizeInches": 27,
+    "resolution": "2560x1440",
+    "refreshRateHz": 144,
+    "panelType": "IPS"
+  },
+  {
+    "title": "Philips 278E1A",
+    "category": "Screen",
+    "price": 249,
+    "sizeInches": 27,
+    "resolution": "3840x2160",
+    "refreshRateHz": 60,
+    "panelType": "IPS"
+  },
+  {
+    "title": "MSI Optix G241",
+    "category": "Screen",
+    "price": 169,
+    "sizeInches": 23.8,
+    "resolution": "1920x1080",
+    "refreshRateHz": 144,
+    "panelType": "IPS"
+  }
+]

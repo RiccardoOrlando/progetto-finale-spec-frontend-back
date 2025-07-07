@@ -1,0 +1,406 @@
+[
+  {
+    "title": "Dell XPS 15 9520",
+    "category": "Laptop",
+    "price": 2200,
+    "brand": "Dell",
+    "cpu": {
+      "title": "Intel Core i7-12700H",
+      "category": "CPU",
+      "price": 400,
+      "brand": "Intel",
+      "model": "i7-12700H",
+      "cores": 14,
+      "threads": 20,
+      "baseClockGHz": 2.3,
+      "turboClockGHz": 4.7
+    },
+    "gpu": {
+      "title": "NVIDIA GeForce RTX 3050 Ti",
+      "category": "GPU",
+      "price": 350,
+      "brand": "Nvidia",
+      "model": "RTX 3050 Ti",
+      "vramGB": 4,
+      "dedicated": true
+    },
+    "ramGB": 16,
+    "storage": [
+      {
+        "title": "Samsung 970 EVO Plus",
+        "category": "Storage",
+        "price": 120,
+        "type": "NVMe",
+        "capacityGB": 512
+      }
+    ],
+    "screen": {
+      "title": "Dell 15.6\" FHD",
+      "category": "Screen",
+      "price": 180,
+      "sizeInches": 15.6,
+      "resolution": "1920x1080",
+      "refreshRateHz": 60,
+      "panelType": "IPS"
+    }
+  },
+  {
+    "title": "Apple MacBook Pro 16 M2 Pro",
+    "category": "Laptop",
+    "price": 3200,
+    "brand": "Apple",
+    "cpu": {
+      "title": "Apple M2 Pro",
+      "category": "CPU",
+      "price": 700,
+      "brand": "Intel",
+      "model": "M2 Pro",
+      "cores": 10,
+      "threads": 10,
+      "baseClockGHz": 3.5
+    },
+    "gpu": {
+      "title": "Apple Integrated GPU",
+      "category": "GPU",
+      "price": 0,
+      "brand": "Intel",
+      "model": "Integrated",
+      "vramGB": 16,
+      "dedicated": false
+    },
+    "ramGB": 16,
+    "storage": [
+      {
+        "title": "Apple SSD",
+        "category": "Storage",
+        "price": 200,
+        "type": "NVMe",
+        "capacityGB": 1024
+      }
+    ],
+    "screen": {
+      "title": "Apple Retina Display",
+      "category": "Screen",
+      "price": 400,
+      "sizeInches": 16,
+      "resolution": "3840x2160",
+      "refreshRateHz": 60,
+      "panelType": "IPS"
+    }
+  },
+  {
+    "title": "Lenovo Legion 5 Pro",
+    "category": "Laptop",
+    "price": 1800,
+    "brand": "Lenovo",
+    "cpu": {
+      "title": "AMD Ryzen 7 6800H",
+      "category": "CPU",
+      "price": 350,
+      "brand": "AMD",
+      "model": "Ryzen 7 6800H",
+      "cores": 8,
+      "threads": 16,
+      "baseClockGHz": 3.2,
+      "turboClockGHz": 4.7
+    },
+    "gpu": {
+      "title": "NVIDIA RTX 3070 Ti",
+      "category": "GPU",
+      "price": 700,
+      "brand": "Nvidia",
+      "model": "RTX 3070 Ti",
+      "vramGB": 8,
+      "dedicated": true
+    },
+    "ramGB": 16,
+    "storage": [
+      {
+        "title": "Western Digital SN770",
+        "category": "Storage",
+        "price": 110,
+        "type": "NVMe",
+        "capacityGB": 1024
+      }
+    ],
+    "screen": {
+      "title": "Lenovo 16\" QHD",
+      "category": "Screen",
+      "price": 250,
+      "sizeInches": 16,
+      "resolution": "2560x1440",
+      "refreshRateHz": 165,
+      "panelType": "IPS"
+    }
+  },
+  {
+    "title": "ASUS ROG Zephyrus G14",
+    "category": "Laptop",
+    "price": 2100,
+    "brand": "ASUS",
+    "cpu": {
+      "title": "AMD Ryzen 9 6900HS",
+      "category": "CPU",
+      "price": 450,
+      "brand": "AMD",
+      "model": "Ryzen 9 6900HS",
+      "cores": 8,
+      "threads": 16,
+      "baseClockGHz": 3.3,
+      "turboClockGHz": 4.9
+    },
+    "gpu": {
+      "title": "NVIDIA RTX 3060",
+      "category": "GPU",
+      "price": 400,
+      "brand": "Nvidia",
+      "model": "RTX 3060",
+      "vramGB": 6,
+      "dedicated": true
+    },
+    "ramGB": 16,
+    "storage": [
+      {
+        "title": "Crucial P3 Plus",
+        "category": "Storage",
+        "price": 90,
+        "type": "NVMe",
+        "capacityGB": 512
+      }
+    ],
+    "screen": {
+      "title": "ASUS 14\" FHD",
+      "category": "Screen",
+      "price": 150,
+      "sizeInches": 14,
+      "resolution": "1920x1080",
+      "refreshRateHz": 120,
+      "panelType": "IPS"
+    }
+  },
+  {
+    "title": "HP Spectre x360 14",
+    "category": "Laptop",
+    "price": 1700,
+    "brand": "HP",
+    "cpu": {
+      "title": "Intel Core i7-1165G7",
+      "category": "CPU",
+      "price": 350,
+      "brand": "Intel",
+      "model": "i7-1165G7",
+      "cores": 4,
+      "threads": 8,
+      "baseClockGHz": 2.8,
+      "turboClockGHz": 4.7
+    },
+    "gpu": {
+      "title": "Intel Iris Xe Graphics",
+      "category": "GPU",
+      "price": 0,
+      "brand": "Intel",
+      "model": "Iris Xe",
+      "vramGB": 0,
+      "dedicated": false
+    },
+    "ramGB": 16,
+    "storage": [
+      {
+        "title": "Samsung 970 EVO Plus",
+        "category": "Storage",
+        "price": 110,
+        "type": "NVMe",
+        "capacityGB": 512
+      }
+    ],
+    "screen": {
+      "title": "HP 13.5\" OLED",
+      "category": "Screen",
+      "price": 300,
+      "sizeInches": 13.5,
+      "resolution": "2560x1440",
+      "refreshRateHz": 60,
+      "panelType": "OLED"
+    }
+  },
+  {
+    "title": "Acer Predator Helios 300",
+    "category": "Laptop",
+    "price": 1600,
+    "brand": "Acer",
+    "cpu": {
+      "title": "Intel Core i7-11800H",
+      "category": "CPU",
+      "price": 400,
+      "brand": "Intel",
+      "model": "i7-11800H",
+      "cores": 8,
+      "threads": 16,
+      "baseClockGHz": 2.3,
+      "turboClockGHz": 4.6
+    },
+    "gpu": {
+      "title": "NVIDIA RTX 3060",
+      "category": "GPU",
+      "price": 400,
+      "brand": "Nvidia",
+      "model": "RTX 3060",
+      "vramGB": 6,
+      "dedicated": true
+    },
+    "ramGB": 16,
+    "storage": [
+      {
+        "title": "Western Digital Blue SN570",
+        "category": "Storage",
+        "price": 80,
+        "type": "NVMe",
+        "capacityGB": 512
+      }
+    ],
+    "screen": {
+      "title": "Acer 15.6\" FHD",
+      "category": "Screen",
+      "price": 180,
+      "sizeInches": 15.6,
+      "resolution": "1920x1080",
+      "refreshRateHz": 144,
+      "panelType": "IPS"
+    }
+  },
+  {
+    "title": "MSI GF65 Thin",
+    "category": "Laptop",
+    "price": 1300,
+    "brand": "MSI",
+    "cpu": {
+      "title": "Intel Core i5-10500H",
+      "category": "CPU",
+      "price": 250,
+      "brand": "Intel",
+      "model": "i5-10500H",
+      "cores": 6,
+      "threads": 12,
+      "baseClockGHz": 2.5,
+      "turboClockGHz": 4.5
+    },
+    "gpu": {
+      "title": "NVIDIA GTX 1660 Ti",
+      "category": "GPU",
+      "price": 250,
+      "brand": "Nvidia",
+      "model": "GTX 1660 Ti",
+      "vramGB": 6,
+      "dedicated": true
+    },
+    "ramGB": 16,
+    "storage": [
+      {
+        "title": "Kingston A2000",
+        "category": "Storage",
+        "price": 70,
+        "type": "NVMe",
+        "capacityGB": 512
+      }
+    ],
+    "screen": {
+      "title": "MSI 15.6\" FHD",
+      "category": "Screen",
+      "price": 150,
+      "sizeInches": 15.6,
+      "resolution": "1920x1080",
+      "refreshRateHz": 60,
+      "panelType": "IPS"
+    }
+  },
+  {
+    "title": "Razer Blade 15 Advanced",
+    "category": "Laptop",
+    "price": 2500,
+    "brand": "Razer",
+    "cpu": {
+      "title": "Intel Core i7-11800H",
+      "category": "CPU",
+      "price": 400,
+      "brand": "Intel",
+      "model": "i7-11800H",
+      "cores": 8,
+      "threads": 16,
+      "baseClockGHz": 2.3,
+      "turboClockGHz": 4.6
+    },
+    "gpu": {
+      "title": "NVIDIA RTX 3080",
+      "category": "GPU",
+      "price": 1200,
+      "brand": "Nvidia",
+      "model": "RTX 3080",
+      "vramGB": 8,
+      "dedicated": true
+    },
+    "ramGB": 32,
+    "storage": [
+      {
+        "title": "Samsung 980 Pro",
+        "category": "Storage",
+        "price": 220,
+        "type": "NVMe",
+        "capacityGB": 1000
+      }
+    ],
+    "screen": {
+      "title": "Razer 15.6\" OLED",
+      "category": "Screen",
+      "price": 400,
+      "sizeInches": 15.6,
+      "resolution": "3840x2160",
+      "refreshRateHz": 144,
+      "panelType": "OLED"
+    }
+  },
+  {
+    "title": "HP Envy 13",
+    "category": "Laptop",
+    "price": 1100,
+    "brand": "HP",
+    "cpu": {
+      "title": "Intel Core i5-1135G7",
+      "category": "CPU",
+      "price": 250,
+      "brand": "Intel",
+      "model": "i5-1135G7",
+      "cores": 4,
+      "threads": 8,
+      "baseClockGHz": 2.4,
+      "turboClockGHz": 4.2
+    },
+    "gpu": {
+      "title": "Intel Iris Xe Graphics",
+      "category": "GPU",
+      "price": 0,
+      "brand": "Intel",
+      "model": "Iris Xe",
+      "vramGB": 0,
+      "dedicated": false
+    },
+    "ramGB": 8,
+    "storage": [
+      {
+        "title": "Crucial MX500",
+        "category": "Storage",
+        "price": 60,
+        "type": "SSD",
+        "capacityGB": 256
+      }
+    ],
+    "screen": {
+      "title": "HP 13.3\" FHD",
+      "category": "Screen",
+      "price": 130,
+      "sizeInches": 13.3,
+      "resolution": "1920x1080",
+      "refreshRateHz": 60,
+      "panelType": "IPS"
+    }
+  }
+]

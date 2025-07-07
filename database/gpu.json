@@ -1,0 +1,92 @@
+[
+  {
+    "title": "NVIDIA GeForce RTX 4090",
+    "category": "GPU",
+    "price": 1600,
+    "brand": "Nvidia",
+    "model": "RTX 4090",
+    "vramGB": 24,
+    "dedicated": true
+  },
+  {
+    "title": "AMD Radeon RX 7900 XTX",
+    "category": "GPU",
+    "price": 1000,
+    "brand": "AMD",
+    "model": "RX 7900 XTX",
+    "vramGB": 24,
+    "dedicated": true
+  },
+  {
+    "title": "NVIDIA GeForce RTX 4070 Ti",
+    "category": "GPU",
+    "price": 800,
+    "brand": "Nvidia",
+    "model": "RTX 4070 Ti",
+    "vramGB": 12,
+    "dedicated": true
+  },
+  {
+    "title": "AMD Radeon RX 6800 XT",
+    "category": "GPU",
+    "price": 650,
+    "brand": "AMD",
+    "model": "RX 6800 XT",
+    "vramGB": 16,
+    "dedicated": true
+  },
+  {
+    "title": "Intel Arc A770",
+    "category": "GPU",
+    "price": 350,
+    "brand": "Intel",
+    "model": "Arc A770",
+    "vramGB": 16,
+    "dedicated": true
+  },
+  {
+    "title": "NVIDIA GeForce RTX 3060",
+    "category": "GPU",
+    "price": 350,
+    "brand": "Nvidia",
+    "model": "RTX 3060",
+    "vramGB": 12,
+    "dedicated": true
+  },
+  {
+    "title": "AMD Radeon RX 6600 XT",
+    "category": "GPU",
+    "price": 280,
+    "brand": "AMD",
+    "model": "RX 6600 XT",
+    "vramGB": 8,
+    "dedicated": true
+  },
+  {
+    "title": "Intel UHD Graphics 770",
+    "category": "GPU",
+    "price": 0,
+    "brand": "Intel",
+    "model": "UHD Graphics 770",
+    "vramGB": 0,
+    "dedicated": false
+  },
+  {
+    "title": "NVIDIA GeForce GTX 1660 Super",
+    "category": "GPU",
+    "price": 230,
+    "brand": "Nvidia",
+    "model": "GTX 1660 Super",
+    "vramGB": 6,
+    "dedicated": true
+  },
+  {
+    "title": "AMD Radeon RX 5700 XT",
+    "category": "GPU",
+    "price": 400,
+    "brand": "AMD",
+    "model": "RX 5700 XT",
+    "vramGB": 8,
+    "dedicated": true
+  }
+]

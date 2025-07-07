@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Samsung 980 PRO",
+    "category": "Storage",
+    "price": 150,
+    "type": "NVMe",
+    "capacityGB": 1000
+  },
+  {
+    "title": "Crucial MX500",
+    "category": "Storage",
+    "price": 80,
+    "type": "SSD",
+    "capacityGB": 1000
+  },
+  {
+    "title": "Western Digital Blue 1TB",
+    "category": "Storage",
+    "price": 50,
+    "type": "HDD",
+    "capacityGB": 1000
+  },
+  {
+    "title": "Kingston A2000",
+    "category": "Storage",
+    "price": 65,
+    "type": "NVMe",
+    "capacityGB": 500
+  },
+  {
+    "title": "Seagate Barracuda 2TB",
+    "category": "Storage",
+    "price": 65,
+    "type": "HDD",
+    "capacityGB": 2000
+  },
+  {
+    "title": "SanDisk Ultra 3D SSD",
+    "category": "Storage",
+    "price": 110,
+    "type": "SSD",
+    "capacityGB": 2000
+  },
+  {
+    "title": "Corsair MP600 PRO",
+    "category": "Storage",
+    "price": 180,
+    "type": "NVMe",
+    "capacityGB": 2000
+  },
+  {
+    "title": "Toshiba P300",
+    "category": "Storage",
+    "price": 45,
+    "type": "HDD",
+    "capacityGB": 1000
+  },
+  {
+    "title": "ADATA SU800",
+    "category": "Storage",
+    "price": 70,
+    "type": "SSD",
+    "capacityGB": 1000
+  },
+  {
+    "title": "Intel 670p",
+    "category": "Storage",
+    "price": 120,
+    "type": "NVMe",
+    "capacityGB": 1000
+  }
+]
