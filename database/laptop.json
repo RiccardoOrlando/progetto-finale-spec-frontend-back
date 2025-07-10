@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "title": "Dell XPS 15 9520",
     "category": "Laptop",
     "price": 2200,
@@ -45,6 +46,7 @@
     }
   },
   {
+    "id": 2,
     "title": "Apple MacBook Pro 16 M2 Pro",
     "category": "Laptop",
     "price": 3200,
@@ -89,6 +91,7 @@
     }
   },
   {
+    "id": 3,
     "title": "Lenovo Legion 5 Pro",
     "category": "Laptop",
     "price": 1800,
@@ -134,6 +137,7 @@
     }
   },
   {
+    "id": 4,
     "title": "ASUS ROG Zephyrus G14",
     "category": "Laptop",
     "price": 2100,
@@ -179,6 +183,7 @@
     }
   },
   {
+    "id": 5,
     "title": "HP Spectre x360 14",
     "category": "Laptop",
     "price": 1700,
@@ -224,6 +229,7 @@
     }
   },
   {
+    "id": 6,
     "title": "Acer Predator Helios 300",
     "category": "Laptop",
     "price": 1600,
@@ -269,6 +275,7 @@
     }
   },
   {
+    "id": 7,
     "title": "MSI GF65 Thin",
     "category": "Laptop",
     "price": 1300,
@@ -314,6 +321,7 @@
     }
   },
   {
+    "id": 8,
     "title": "Razer Blade 15 Advanced",
     "category": "Laptop",
     "price": 2500,
@@ -359,6 +367,7 @@
     }
   },
   {
+    "id": 9,
     "title": "HP Envy 13",
     "category": "Laptop",
     "price": 1100,

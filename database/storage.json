@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "title": "Samsung 980 PRO",
     "category": "Storage",
     "price": 150,
@@ -7,6 +8,7 @@
     "capacityGB": 1000
   },
   {
+    "id": 2,
     "title": "Crucial MX500",
     "category": "Storage",
     "price": 80,
@@ -14,6 +16,7 @@
     "capacityGB": 1000
   },
   {
+    "id": 3,
     "title": "Western Digital Blue 1TB",
     "category": "Storage",
     "price": 50,
@@ -21,6 +24,7 @@
     "capacityGB": 1000
   },
   {
+    "id": 4,
     "title": "Kingston A2000",
     "category": "Storage",
     "price": 65,
@@ -28,6 +32,7 @@
     "capacityGB": 500
   },
   {
+    "id": 5,
     "title": "Seagate Barracuda 2TB",
     "category": "Storage",
     "price": 65,
@@ -35,6 +40,7 @@
     "capacityGB": 2000
   },
   {
+    "id": 6,
     "title": "SanDisk Ultra 3D SSD",
     "category": "Storage",
     "price": 110,
@@ -42,6 +48,7 @@
     "capacityGB": 2000
   },
   {
+    "id": 7,
     "title": "Corsair MP600 PRO",
     "category": "Storage",
     "price": 180,
@@ -49,6 +56,7 @@
     "capacityGB": 2000
   },
   {
+    "id": 8,
     "title": "Toshiba P300",
     "category": "Storage",
     "price": 45,
@@ -56,6 +64,7 @@
     "capacityGB": 1000
   },
   {
+    "id": 9,
     "title": "ADATA SU800",
     "category": "Storage",
     "price": 70,
@@ -63,6 +72,7 @@
     "capacityGB": 1000
   },
   {
+    "id": 10,
     "title": "Intel 670p",
     "category": "Storage",
     "price": 120,

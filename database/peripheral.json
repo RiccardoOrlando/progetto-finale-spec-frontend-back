@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "title": "Logitech MX Master 3",
     "category": "Peripheral",
     "price": 99,
@@ -8,6 +9,7 @@
     "wireless": true
   },
   {
+    "id": 2,
     "title": "Razer BlackWidow V3",
     "category": "Peripheral",
     "price": 140,
@@ -16,6 +18,7 @@
     "wireless": false
   },
   {
+    "id": 3,
     "title": "Dell UltraSharp U2723QE",
     "category": "Peripheral",
     "price": 599,
@@ -24,6 +27,7 @@
     "wireless": false
   },
   {
+    "id": 4,
     "title": "Logitech C920 HD Pro",
     "category": "Peripheral",
     "price": 80,
@@ -32,6 +36,7 @@
     "wireless": false
   },
   {
+    "id": 5,
     "title": "Microsoft Sculpt Ergonomic Keyboard",
     "category": "Peripheral",
     "price": 90,
@@ -40,6 +45,7 @@
     "wireless": true
   },
   {
+    "id": 6,
     "title": "Corsair K95 RGB Platinum",
     "category": "Peripheral",
     "price": 200,
@@ -48,6 +54,7 @@
     "wireless": false
   },
   {
+    "id": 7,
     "title": "Logitech G Pro Wireless",
     "category": "Peripheral",
     "price": 129,
@@ -56,6 +63,7 @@
     "wireless": true
   },
   {
+    "id": 8,
     "title": "HP OfficeJet Pro 9015",
     "category": "Peripheral",
     "price": 220,
@@ -64,6 +72,7 @@
     "wireless": true
   },
   {
+    "id": 9,
     "title": "Dell S2721DGF",
     "category": "Peripheral",
     "price": 449,
@@ -72,6 +81,7 @@
     "wireless": false
   },
   {
+    "id": 10,
     "title": "Logitech Brio Ultra HD",
     "category": "Peripheral",
     "price": 190,

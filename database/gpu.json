@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "title": "NVIDIA GeForce RTX 4090",
     "category": "GPU",
     "price": 1600,
@@ -9,6 +10,7 @@
     "dedicated": true
   },
   {
+    "id": 2,
     "title": "AMD Radeon RX 7900 XTX",
     "category": "GPU",
     "price": 1000,
@@ -18,6 +20,7 @@
     "dedicated": true
   },
   {
+    "id": 3,
     "title": "NVIDIA GeForce RTX 4070 Ti",
     "category": "GPU",
     "price": 800,
@@ -27,6 +30,7 @@
     "dedicated": true
   },
   {
+    "id": 4,
     "title": "AMD Radeon RX 6800 XT",
     "category": "GPU",
     "price": 650,
@@ -36,6 +40,7 @@
     "dedicated": true
   },
   {
+    "id": 5,
     "title": "Intel Arc A770",
     "category": "GPU",
     "price": 350,
@@ -45,6 +50,7 @@
     "dedicated": true
   },
   {
+    "id": 6,
     "title": "NVIDIA GeForce RTX 3060",
     "category": "GPU",
     "price": 350,
@@ -54,6 +60,7 @@
     "dedicated": true
   },
   {
+    "id": 7,
     "title": "AMD Radeon RX 6600 XT",
     "category": "GPU",
     "price": 280,
@@ -63,6 +70,7 @@
     "dedicated": true
   },
   {
+    "id": 8,
     "title": "Intel UHD Graphics 770",
     "category": "GPU",
     "price": 0,
@@ -72,6 +80,7 @@
     "dedicated": false
   },
   {
+    "id": 9,
     "title": "NVIDIA GeForce GTX 1660 Super",
     "category": "GPU",
     "price": 230,
@@ -81,6 +90,7 @@
     "dedicated": true
   },
   {
+    "id": 10,
     "title": "AMD Radeon RX 5700 XT",
     "category": "GPU",
     "price": 400,

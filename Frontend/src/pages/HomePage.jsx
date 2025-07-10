@@ -2,34 +2,39 @@ import React, { useState } from "react";
 import useAllFetch from "../hook/fetchData";
 import { filterByCategory, sortItems } from "../utils/filters";
 import ProductCard from "../components/ProductCard";
+import useDebounce from "../hook/useDebounce";
 
 export default function HomePage() {
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("");
   const [order, setOrder] = useState("");
 
+  const debouncedSearch = useDebounce(search, 600);
+  const debounceOrder = useDebounce(order, 200);
+  const debouncedCategory = useDebounce(category, 100);
+
   const { cpus, gpus, laptops, peripherals, screens, storage } = useAllFetch(
-    category,
-    search
+    debouncedCategory,
+    debouncedSearch,
   );
 
-  const processedCpus = sortItems(filterByCategory(cpus, category), order);
-  const processedGpus = sortItems(filterByCategory(gpus, category), order);
+  const processedCpus = sortItems(filterByCategory(cpus, category), debounceOrder);
+  const processedGpus = sortItems(filterByCategory(gpus, category), debounceOrder);
   const processedLaptops = sortItems(
     filterByCategory(laptops, category),
-    order
+    debounceOrder
   );
   const processedPeripherals = sortItems(
     filterByCategory(peripherals, category),
-    order
+    debounceOrder
   );
   const processedScreens = sortItems(
     filterByCategory(screens, category),
-    order
+    debounceOrder
   );
   const processedStorage = sortItems(
     filterByCategory(storage, category),
-    order
+    debounceOrder
   );
 
   const products = [
@@ -43,20 +48,20 @@ export default function HomePage() {
 
   return (
     <>
-      <h1 class="title">Home Page</h1>
-      <div class="form-container">
+      <h1 className="title">Home Page</h1>
+      <div className="form-container">
         <input
           type="text"
           placeholder="Search for a product"
           onChange={(e) => setSearch(e.target.value)}
-          class="input"
+          className="input"
         />
 
         <select
           name="filtro per categoria"
           defaultValue=""
           onChange={(e) => setCategory(e.target.value)}
-          class="select"
+          className="select"
         >
           <option value="" disabled hidden>
             Filtra per Categoria
@@ -73,7 +78,7 @@ export default function HomePage() {
           name="ordine alfabetico"
           defaultValue=""
           onChange={(e) => setOrder(e.target.value)}
-          class="select"
+          className="select"
         >
           <option value="" disabled hidden>
             Filtra per Ordine Alfabetico
@@ -84,7 +89,7 @@ export default function HomePage() {
       </div>
       <div className="products-container">
         {products.map((product) => (
-          <ProductCard key={product.id} product={product} />
+          <ProductCard key={`${product.category}${product.id}`} product={product} />
         ))}
       </div>
     </>

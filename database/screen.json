@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "title": "LG 27UL500-W",
     "category": "Screen",
     "price": 299,
@@ -9,6 +10,7 @@
     "panelType": "IPS"
   },
   {
+    "id": 2,
     "title": "Samsung S24R650FDN",
     "category": "Screen",
     "price": 199,
@@ -18,6 +20,7 @@
     "panelType": "IPS"
   },
   {
+    "id": 3,
     "title": "Dell S2721DGF",
     "category": "Screen",
     "price": 429,
@@ -27,6 +30,7 @@
     "panelType": "IPS"
   },
   {
+    "id": 4,
     "title": "BenQ EW2780",
     "category": "Screen",
     "price": 219,
@@ -36,6 +40,7 @@
     "panelType": "IPS"
   },
   {
+    "id": 5,
     "title": "ASUS TUF Gaming VG27AQ",
     "category": "Screen",
     "price": 379,
@@ -45,6 +50,7 @@
     "panelType": "IPS"
   },
   {
+    "id": 6,
     "title": "Acer Nitro VG240Y",
     "category": "Screen",
     "price": 149,
@@ -54,6 +60,7 @@
     "panelType": "IPS"
   },
   {
+    "id": 7,
     "title": "HP U28 4K HDR Monitor",
     "category": "Screen",
     "price": 349,
@@ -63,6 +70,7 @@
     "panelType": "IPS"
   },
   {
+    "id": 8,
     "title": "ViewSonic VX2758-2KP-MHD",
     "category": "Screen",
     "price": 299,
@@ -72,6 +80,7 @@
     "panelType": "IPS"
   },
   {
+    "id": 9,
     "title": "Philips 278E1A",
     "category": "Screen",
     "price": 249,
@@ -81,6 +90,7 @@
     "panelType": "IPS"
   },
   {
+    "id": 10,
     "title": "MSI Optix G241",
     "category": "Screen",
     "price": 169,
