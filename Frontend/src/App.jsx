@@ -1,19 +1,26 @@
-import { useState } from 'react'
-import HomePage from './pages/HomePage'
-import {Route, Routes} from "react-router-dom"
-
+import HomePage from "./pages/HomePage";
+import { Route, Routes } from "react-router-dom";
+import DetailsPage from "./pages/DetailsPage";
+import { CompareProvider } from "./hooks/useCompare";
+import ComparePage from "./pages/ComparePage";
+import { FavoriteProvider } from "./contexts/FavoriteContext";
+import FavoritesPage from "./pages/FavoritesPage";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return(
+  return (
     <>
-    <Routes>
-      <Route path='/' element={<HomePage/>}/>
-    </Routes>
+      <CompareProvider>
+        <FavoriteProvider>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/detailsproduct/:id" element={<DetailsPage />} />
+            <Route path="/compare" element={<ComparePage />} />
+            <Route path="/preferiti" element={<FavoritesPage />} />
+          </Routes>
+        </FavoriteProvider>
+      </CompareProvider>
     </>
-  )
-
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,217 @@
+/* Stili per la pagina di confronto */
+
+.compare-empty {
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.compare-empty h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.compare-empty p {
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.compare-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 2px solid #eee;
+  margin-bottom: 30px;
+}
+
+.compare-header h1 {
+  color: #333;
+  margin: 0;
+}
+
+.compare-header > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.category-info {
+  margin: 0;
+  color: #f8f9fa;
+  font-size: 14px;
+}
+
+
+.compare-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.compare-card {
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.compare-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.compare-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #eee;
+  border-radius: 10px 10px 0 0;
+}
+
+.compare-card-header h3 {
+  margin: 0;
+  color: #333;
+  font-size: 18px;
+}
+
+.remove-button {
+  background: #ff4757;
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.remove-button:hover {
+  background: #ff3742;
+}
+
+.compare-card-content {
+  padding: 20px;
+}
+
+.compare-field {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.compare-field strong {
+  color: #333;
+  font-weight: 600;
+}
+
+.compare-field span {
+  color: #666;
+  line-height: 1.4;
+}
+
+.features-list {
+  margin: 5px 0 0 0;
+  padding-left: 20px;
+}
+
+.features-list li {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.compare-card-footer {
+  padding: 15px 20px;
+  border-top: 1px solid #eee;
+  background: #f8f9fa;
+  border-radius: 0 0 10px 10px;
+}
+
+.details-button {
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background 0.2s;
+  display: inline-block;
+}
+
+.details-button:hover {
+  background: #0056b3;
+}
+
+.back-button {
+  background: #6c757d;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background 0.2s;
+  display: inline-block;
+}
+
+.back-button:hover {
+  background: #545b62;
+}
+
+.clear-button {
+  background: #dc3545;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.clear-button:hover {
+  background: #c82333;
+}
+
+.add-more {
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 30px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.add-more p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.add-more-button {
+  background: #28a745;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background 0.2s;
+  display: inline-block;
+}
+
+.add-more-button:hover {
+  background: #1e7e34;
+}

@@ -1,0 +1,55 @@
+
+/* Stili per il bottone compare quando è presente una categoria */
+.compare-button.styled {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 14px;
+  margin-top: 12px;
+  width: 100%;
+}
+
+.compare-button.styled:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+  background: linear-gradient(135deg, #5a67d8 0%, #6b46a3 100%);
+}
+
+.compare-button.styled:active {
+  transform: translateY(0);
+}
+
+/* Stili per il bottone cuore */
+.heart-button {
+  background: rgba(0, 0, 0, 0.1);
+  border: 2px solid #ddd;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  min-width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+}
+
+.heart-button:hover {
+  transform: scale(1.1);
+  background: rgba(0, 0, 0, 0.15);
+  border-color: #bbb;
+}
+
+/* Cuore attivo (rosso) - aggiungi questa classe dal tuo context */
+.heart-button.active {
+  color: #e74c3c !important;
+  border-color: #e74c3c !important;
+  background: rgba(231, 76, 60, 0.1) !important;
+}

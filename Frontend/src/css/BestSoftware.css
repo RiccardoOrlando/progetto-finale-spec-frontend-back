@@ -1,0 +1,97 @@
+/* Stili per il miglior software */
+.best-software-section {
+  margin: 30px 20px;
+  text-align: center;
+}
+
+.best-software-badge {
+  background: linear-gradient(135deg, #ffd700, #ffed4e);
+  padding: 25px;
+  border-radius: 15px;
+  border: 3px solid #f39c12;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 8px 25px rgba(243, 156, 18, 0.3);
+}
+
+.best-software-badge h2 {
+  margin: 0 0 15px 0;
+  color: #b8860b;
+  font-size: 24px;
+}
+
+.best-software-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.best-software-card h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 20px;
+}
+
+.best-rating {
+  color: #f39c12;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.best-details-button {
+  background: #f39c12;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background 0.2s;
+  display: inline-block;
+}
+
+.best-details-button:hover {
+  background: #d68910;
+}
+
+/* Stili per le card vincenti */
+.winner-card {
+  border: 3px solid #f39c12 ;
+  box-shadow: 0 8px 25px rgba(243, 156, 18, 0.2) ;
+  position: relative;
+}
+
+.winner-card::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  background: linear-gradient(45deg, #ffd700, #f39c12);
+  border-radius: 15px;
+  z-index: -1;
+}
+
+.winner-badge {
+  background: #f39c12;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.rating-field .rating-display {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.rating-best {
+  color: #f39c12;
+  font-weight: 600;
+  font-size: 14px;
+}
